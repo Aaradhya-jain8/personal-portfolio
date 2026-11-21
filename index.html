@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aaradhya Jain | Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="logo">Aaradhya Jain</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">&#9776;</button>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <button id="themeToggle" class="theme-btn" type="button">Dark Mode</button>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container hero-content">
+      <p class="badge">B.Tech First Year Student &bull; Open to Internships</p>
+      <h1>Hi, I'm <span class="highlight">Aaradhya Jain</span></h1>
+      <p class="subtitle">
+        First-year B.Tech student at KIET Group of Institutions, Muradnagar.
+        Currently building my foundation in programming and web development.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+      <div class="quick-info">
+        <span><strong>Location:</strong> Muradnagar, Uttar Pradesh</span>
+        <span><strong>Email:</strong> 2630btech0132@kiet.edu</span>
+        <span><strong>Status:</strong> Available for Internship</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            Hello! I am <strong>Aaradhya Jain</strong>, a first-year Bachelor of Technology (B.Tech)
+            student based in Muradnagar. Right now, I am focused on learning core computer science
+            subjects, problem-solving, and front-end web development using HTML, CSS, and JavaScript.
+          </p>
+          <p>
+            As a beginner in software development, I enjoy experimenting with clean page layouts,
+            writing structured code in C++ and Java, and building practical mini-projects to strengthen
+            my understanding. I am actively looking for beginner-friendly internship opportunities
+            where I can learn and contribute.
+          </p>
+        </div>
+        <div class="card info-card">
+          <h3>Student Profile</h3>
+          <ul>
+            <li><strong>Name:</strong> Aaradhya Jain</li>
+            <li><strong>Course:</strong> B.Tech (1st Year)</li>
+            <li><strong>College:</strong> KIET Group of Institutions</li>
+            <li><strong>Location:</strong> Muradnagar, India</li>
+            <li><strong>Internship:</strong> Available</li>
+            <li><strong>Email:</strong> 2630btech0132@kiet.edu</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="timeline">
+        <div class="card edu-card">
+          <div class="edu-header">
+            <h3>Bachelor of Technology (B.Tech) — 1st Year</h3>
+            <span class="tag">Currently Pursuing</span>
+          </div>
+          <p class="institution">KIET Group of Institutions, Muradnagar</p>
+          <p class="edu-note">First-year undergraduate coursework. CGPA not yet released.</p>
+        </div>
+
+        <div class="card edu-card">
+          <div class="edu-header">
+            <h3>Class XII (Senior Secondary)</h3>
+            <span class="tag">Completed</span>
+          </div>
+          <p class="institution">Spring Dales Public School</p>
+          <p class="edu-score" data-percentage="Percentage: 88.2%">Percentage: 88.2%</p>
+        </div>
+
+        <div class="card edu-card">
+          <div class="edu-header">
+            <h3>Class X (Secondary)</h3>
+            <span class="tag">Completed</span>
+          </div>
+          <p class="institution">MIET Public School, Meerut</p>
+          <p class="edu-score" data-percentage="Percentage: 88.4%">Percentage: 88.4%</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <p class="section-desc">Filter by category to view my current learning stack and soft skills.</p>
+
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all" type="button">All Skills</button>
+        <button class="filter-btn" data-filter="technical" type="button">Technical (Still Learning)</button>
+        <button class="filter-btn" data-filter="soft" type="button">Non-Technical</button>
+      </div>
+
+      <div class="skills-grid" id="skillsGrid">
+        <div class="card skill-card" data-category="technical">
+          <h3>HTML5</h3>
+          <span class="level-badge">Still Learning</span>
+          <p>Semantic page structure, forms, tables, and accessible markup.</p>
+        </div>
+
+        <div class="card skill-card" data-category="technical">
+          <h3>CSS3</h3>
+          <span class="level-badge">Still Learning</span>
+          <p>Flexbox, CSS Grid, responsive media queries, and clean styling.</p>
+        </div>
+
+        <div class="card skill-card" data-category="technical">
+          <h3>JavaScript</h3>
+          <span class="level-badge">Still Learning</span>
+          <p>DOM manipulation, event handling, form validation, and localStorage.</p>
+        </div>
+
+        <div class="card skill-card" data-category="technical">
+          <h3>C++</h3>
+          <span class="level-badge">Still Learning</span>
+          <p>Programming fundamentals, loops, arrays, functions, and basic logic.</p>
+        </div>
+
+        <div class="card skill-card" data-category="technical">
+          <h3>Java</h3>
+          <span class="level-badge">Still Learning</span>
+          <p>Core syntax, object-oriented programming basics, and problem solving.</p>
+        </div>
+
+        <div class="card skill-card" data-category="soft">
+          <h3>Teamwork & Communication</h3>
+          <span class="level-badge soft-badge">Non-Technical</span>
+          <p>Collaborating clearly with classmates on lab exercises and assignments.</p>
+        </div>
+
+        <div class="card skill-card" data-category="soft">
+          <h3>Quick Learner & Adaptability</h3>
+          <span class="level-badge soft-badge">Non-Technical</span>
+          <p>Eager to pick up new tools, frameworks, and coding practices step by step.</p>
+        </div>
+
+        <div class="card skill-card" data-category="soft">
+          <h3>Time Management</h3>
+          <span class="level-badge soft-badge">Non-Technical</span>
+          <p>Balancing first-year engineering coursework with self-paced coding practice.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <p class="section-desc">
+        Since I am in my first year, I am currently starting out with beginner web development projects.
+      </p>
+
+      <div class="projects-grid">
+        <div class="card project-card">
+          <div class="project-top">
+            <span class="tag">Current Work</span>
+          </div>
+          <h3>Personal Portfolio Website</h3>
+          <p>
+            My first complete front-end website built using HTML, CSS, and JavaScript to showcase
+            my education, learning progress, and contact details.
+          </p>
+          <div class="tech-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+          <button class="details-btn" type="button" data-target="proj1Details">Show Details</button>
+          <div class="project-details hidden" id="proj1Details">
+            <p>
+              Features responsive layout for mobile and desktop, theme toggle, skill filtering,
+              smooth section navigation, and JavaScript form validation.
+            </p>
+          </div>
+        </div>
+
+        <div class="card project-card">
+          <div class="project-top">
+            <span class="tag upcoming-tag">Upcoming</span>
+          </div>
+          <h3>Mini Web Application (Part B)</h3>
+          <p>
+            No completed external projects yet. Currently building an interactive JavaScript mini-project
+            as part of my first-year Web Development coursework.
+          </p>
+          <div class="tech-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+          <button class="details-btn" type="button" data-target="proj2Details">Show Details</button>
+          <div class="project-details hidden" id="proj2Details">
+            <p>
+              Focused on practicing DOM manipulation, user input handling, and clean UI design.
+              More projects in C++, Java, and Web Dev will be added soon.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title">Contact Me</h2>
+      <div class="contact-grid">
+        <div class="card contact-info">
+          <h3>Get in Touch</h3>
+          <p>
+            Feel free to reach out for internship opportunities, study collaborations, or feedback on my work.
+          </p>
+          <p><strong>Email:</strong> <span id="emailText">2630btech0132@kiet.edu</span></p>
+          <p><strong>Location:</strong> Muradnagar, Uttar Pradesh</p>
+          <p><strong>Availability:</strong> Open for Internships</p>
+          <button id="copyEmailBtn" class="btn btn-outline copy-btn" type="button">Copy Email Address</button>
+          <p id="copyStatus" class="status-msg"></p>
+        </div>
+
+        <form id="contactForm" class="card contact-form" novalidate>
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="Enter your full name" />
+            <small class="error-msg" id="nameError"></small>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" placeholder="Enter your email address" />
+            <small class="error-msg" id="emailError"></small>
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" placeholder="Internship / Query / Feedback" />
+            <small class="error-msg" id="subjectError"></small>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="4" placeholder="Write your message here..."></textarea>
+            <small class="error-msg" id="messageError"></small>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <p id="formSuccess" class="success-msg"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Aaradhya Jain &bull; B.Tech First Year Student, Muradnagar</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
